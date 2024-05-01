@@ -7,8 +7,8 @@ localization_settings: {
 
 application: explore-assistant {
   label: "Explore Assistant"
-  # file: "bundle.js"
-  url: "https://localhost:8000/bundle.js"
+  file: "bundle.js"
+  #url: "https://localhost:8000/bundle.js"
   entitlements: {
     core_api_methods: ["lookml_model_explore","run_inline_query","create_sql_query","run_sql_query"]
     navigation: yes
